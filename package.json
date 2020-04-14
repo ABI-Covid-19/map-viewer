@@ -1,0 +1,39 @@
+{
+  "name": "map-viewer",
+  "version": "0.0.1",
+  "description": "COVID-19 Map Viewer",
+  "main": "src/viewer.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "docs": "pipenv run sphinx-autobuild -z src -B docs docs/_build/html",
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Brooks",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@turf/area": "^6.0.1",
+    "@turf/bbox": "^6.0.1",
+    "@turf/helpers": "^6.1.4",
+    "mapbox-gl": "^1.9.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.7",
+    "bs-fullscreen-message": "^1.1.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.8.0",
+    "jsdoc": "^3.5.5",
+    "strip-ansi": "^5.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
