@@ -89,6 +89,12 @@ class Map
 
         this._map = new mapboxgl.Map(mapboxOptions);
 
+        // Show attribution
+
+        this._map.addControl(new mapboxgl.AttributionControl({
+            customAttribution: 'Map data © OpenStreetMap contributors, Map layer by Esri'
+        }));
+
         // Show tile boundaries if debugging
 
         if (options.debug === true) {
