@@ -81,9 +81,8 @@ class Map
             attribution: true
         };
 
-        if (options.debug === true) {
-            mapboxOptions.hash = true;
-        }
+        mapboxOptions.hash = true;
+
         if ('max-zoom' in options) {
             mapboxOptions.maxZoom = options['max-zoom'];
         }
