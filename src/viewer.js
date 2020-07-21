@@ -77,7 +77,8 @@ class Map
 
         const mapboxOptions = {
             style: style,
-            container: container
+            container: container,
+            attribution: true
         };
 
         if (options.debug === true) {
