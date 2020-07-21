@@ -16,14 +16,14 @@
     "@turf/area": "^6.0.1",
     "@turf/bbox": "^6.0.1",
     "@turf/helpers": "^6.1.4",
-    "mapbox-gl": "^1.9.1"
+    "mapbox-gl": "^1.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "babel-loader": "^8.0.6",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.26.10",
     "bs-fullscreen-message": "^1.1.0",
     "css-loader": "^3.2.0",
     "eslint": "^6.8.0",
@@ -33,7 +33,7 @@
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6",
     "webpack-dev-middleware": "^3.7.0",
-    "webpack-dev-server": "^3.7.2",
+    "webpack-dev-server": "^3.11.0",
     "webpack-node-externals": "^1.7.2"
   }
 }
