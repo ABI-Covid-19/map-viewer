@@ -509,7 +509,7 @@ export function loadMap(container, mapId, options={})
 
             // Get the map's style file
 
-            const style = await loadJSON(`/${mapId}/style`);
+            const style = await loadJSON(`${mapId}/style`);
 
             // Make sure the style has glyphs defined
 

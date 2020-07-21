@@ -35,7 +35,7 @@ export function serverUrl(relativePath='')
 }
 
 //==============================================================================
-
+/*
 export function sourceUrl(mapId, url)
 //===================================
 {
@@ -46,13 +46,13 @@ export function sourceUrl(mapId, url)
     }
     return url;
 }
-
+*/
 //==============================================================================
 
 export async function loadJSON(relativePath)
 //==========================================
 {
-    const url = serverUrl(relativePath);
+    const url = `${serverUrl()}${relativePath}`;
     const response = await fetch(url, {
         headers: { "Accept": "application/json; charset=utf-8" },
         method: 'GET'
