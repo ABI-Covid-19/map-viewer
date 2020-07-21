@@ -32,6 +32,7 @@ bundler.plugin('done', function(stats) {
  */
 browserSync.init({
     server: 'app',
+    port: 4328,
     open: false,
     logFileChanges: false,
     middleware: [

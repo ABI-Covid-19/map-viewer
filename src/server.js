@@ -22,8 +22,8 @@ limitations under the License.
 
 //==============================================================================
 
-//const MAP_SERVER_URL = 'https://mapcore-demo.org/flatmaps/';
-const MAP_SERVER_URL = 'http://localhost:4328/';
+//const MAP_SERVER_URL = 'https://celldl.org/abi-covid-19/data/';
+const MAP_SERVER_URL = 'http://localhost:4329/';
 
 //==============================================================================
 
